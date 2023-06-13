@@ -1,0 +1,166 @@
+<html><head>
+    <title>Belajar Buat Web | Home :: Workshop Front End Web Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="http://fonts.googleapis.com/css?family=Karla" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Add fancyBox main JS and CSS files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+            <script>
+                $(document).ready(function() {
+                    $('.popup-with-zoom-anim').magnificPopup({
+                        type: 'inline',
+                        fixedContentPos: false,
+                        fixedBgPos: true,
+                        overflowY: 'auto',
+                        closeBtnInside: true,
+                        preloader: false,
+                        midClick: true,
+                        removalDelay: 300,
+                        mainClass: 'my-mfp-zoom-in'
+                });
+            });
+            </script>
+    </head>
+    <body>
+      <div class="header">	
+           <div class="wrap"> 
+                 <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" style="margin-left: 160px;"></a>
+                 </div>
+                 <div class="cssmenu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li> 
+                        <li><a href="blog.html">Blog</a></li> 
+                        <li><a href="about.html">About Us</a></li> 
+                        <li class="active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                 </div>
+                <div class="clear"></div>
+           </div>
+       </div>
+       <div class="banner">
+              <div class="wrap">
+                  <h2>Contact</h2><div class="clear"></div>
+              </div>
+        </div>
+      <div class="main">
+            <div class="wrap">
+               <div class="contact">
+                       <div class="cont span_2_of_contact">
+                       <h5 class="leave">Send Us A Message</h5><div class="clear"></div>	
+                      <form method="post" action="contact-post.html">
+                        <div class="contact-to">
+                             <input type="text" class="text" value="Name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name...';}" fdprocessedid="gwunpt">
+                             <input type="text" class="text" value="Email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email...';}" style="margin-left: 10px" fdprocessedid="hzn1dg">
+                             <input type="text" class="text" value="Subject..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject...';}" style="margin-left: 10px" fdprocessedid="d7iulj">
+                        </div>
+                        <div class="text2">
+                           <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message..</textarea>
+                        </div>
+                        <div>
+                               <a href="#" class="submit">Send a Message</a>
+                        </div>
+                     </form>
+                    </div>
+                    <div class="lsidebar span_1_of_about">
+                    </div>
+                    <div class="clear"></div>				
+                </div>
+            </div>
+         </div>
+      </div>	
+      <div class="footer">
+        <div class="footer-top">
+           <div class="wrap">
+               <div class="section group">
+                    <div class="col_1_of_3 span_1_of_3">
+                        <h3>Tentang Kami</h3>
+                        <p>Hacktiv8 adalah lembaga pendidikan teknologi yang berdiri pada tahun 2016. Hacktiv8 didirikan oleh Roland Ishak dan Riza Fahmi, yang didasari oleh keresahan mereka melihat banyaknya kejadian saling bajak talent-talent pengembang (developer) di antara perusahaan-perusahaan teknologi</p>
+                        <button class="btn1 btn-8 btn-8b" fdprocessedid="bqan9">Learn more</button>
+                        <h4>Photo Stream</h4>
+                        <div class="gallery">
+                            <ul>
+                                <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/g1.jpg" alt=""></a></li>
+                                <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/g2.jpg" alt=""></a></li>
+                                <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/g3.jpg" alt=""></a></li>
+                                <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/g4.jpg" alt=""></a></li>
+                                <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/g5.jpg" alt=""></a></li>
+                                <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/g6.jpg" alt=""></a></li>
+                                 <div id="small-dialog1" class="mfp-hide">
+                                    <div class="pop_up">
+                                         <h2>A Sample Photo Stream</h2>
+                                        <img src="images/g_zoom.jpg" alt="">
+                                      </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col_1_of_3 span_1_of_3">
+                        <h3>Latest tweets</h3>
+                        <div class="footer-list">
+                            <ul>
+                                <li><img src="images/tw.png" alt=""><p>Hacktive8 <span class="yellow"><a href="#">consectetuer</a></span> adipiscing elit, seddia<br><span class="small">&nbsp;web design</span></p><div class="clear"></div></li>
+                            </ul>
+                        </div>
+                         <div class="social-icons">	
+                             <h4>Social Connecting</h4>
+                                <ul>	
+                                  <li class="facebook"><a href="#"><span> </span></a></li>
+                                  <li class="google"><a href="#"><span> </span></a></li>
+                                  <li class="twitter"><a href="#"><span> </span></a></li>
+                                  <li class="linkedin"><a href="#"><span> </span></a></li>	 
+                                  <li class="youtube"><a href="#"><span> </span></a></li>	
+                                  <li class="bloger"><a href="#"><span> </span></a></li>
+                                  <li class="rss"><a href="#"><span> </span></a></li>	
+                                  <li class="dribble"><a href="#"><span> </span></a></li>		        	
+                                </ul>
+                         </div>
+                    </div>
+                    <div class="col_1_of_3 span_1_of_3">
+                        <h3>Info Kontak</h3>
+                        <div class="footer-list">
+                            <ul>
+                                <li><img src="images/address.png" alt=""><p>Jl. Arteri Pd. Indah No.7, RT.5/RW.9, Kby. Lama Sel., Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240</p><div class="clear"></div></li>
+                                <li><img src="images/phone.png" alt=""><p>Phone: (021) 80675787</p><div class="clear"></div></li>
+                                <li><img src="images/msg.png" alt=""><p>Email: <span class="yellow"><a href="#">https://www.hacktiv8.com</a></span></p><div class="clear"></div></li>
+                           </ul>
+                        </div>
+                        <div class="follow">
+                           <h4>Follow Us</h4>
+                           <p>Hacktive8</p>
+                           <div class="search">
+                              <form>
+                                   <input type="text" value="" fdprocessedid="15c2ax4">
+                                   <input type="submit" value="" fdprocessedid="bq9e0u">
+                              </form>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+          </div>
+         </div>
+         <div class="footer-bottom">
+             <div class="wrap">
+                 <div class="copy">
+                     <p class="copy">© 2023<a href="https://hacktiv8.com" target="_blank"> HACKTIV8 HACKTIV8 WEB DEVELOPER PROGRAM</a></p>
+                </div>
+                 <div class="footer-nav">
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li> 
+                        <li><a href="blog.html">Blog</a></li> 
+                        <li><a href="about.html">About Us</a></li> 
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                 </div>
+                 <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    
+    </body></html>
